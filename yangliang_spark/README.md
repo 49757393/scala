@@ -1,3 +1,4 @@
+spark连接pg 并查询数据
 spark = SparkSession.builder.master("local").appName("spark-oracle").getOrCreate()
 print(spark)
 sc=spark.sparkContext
